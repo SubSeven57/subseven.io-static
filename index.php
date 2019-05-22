@@ -35,11 +35,11 @@
       <a id="m-menu" href="#" onclick="openNav()">&#9776; Menu</a>
     </div>
     <div class="header-c2">
-      <p id="your-name">Daniel Hernandez: Dev, Music, Words</p>
+      <p id="your-name">SubSeven.io</p>
       <!-- Your personal brand name -->
     </div>
     <div class="header-c3">
-      <a href="#"><img src="assets/img/site-logo.png" id="site-logo" alt="Alt for your logo" /></a>
+      <a href="#"><img src="img/android-chrome-512x512.png" id="site-logo" alt="SubSeven Logo" /></a>
     </div>
   </header>
   <!--End of header and menu. -->
@@ -51,21 +51,21 @@
     -->
     <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
     <a class="menu-item" href="#" class="btn" target="#"><i class="fa fa-home"></i> Home</a></li>
+    <a class="menu-item" href="https://linkedin.com/in/subseven" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
     <a class="menu-item" href="#" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-wordpress"></i> Blog</a></li>
-    <a class="menu-item" href="#" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i> Twitter</a></li>
-    <a class="menu-item" href="#" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i> GitHub</a></li>
-    <a class="menu-item" href="#" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-medium"></i> Medium</a></li>
+    <a class="menu-item" href="https://twitter.com/SanKahlo" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i> Twitter</a></li>
+    <a class="menu-item" href="https://github.com/subseven57" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i> GitHub</a></li>
     <!-- Refer to the documentation to see what icons are supported.
     However, the basics are that you give the "i" element a class of "fa" then "fa-whatever" -->
   </nav>
   <!--End of menu and menu container. -->
 
   <!-- Begin resume section 1-->
-  <h2 class="header-c">Your Name</h2>
+  <h2 class="header-c">Daniel Hernandez</h2>
   <!-- Your own name -->
   <div id="cont-1">
     <!-- Description information resume container-->
-    <img src="assets/img/user-pic.png" id="user-pic" alt="Alt for your image" />
+    <img src="https://avatars2.githubusercontent.com/u/5679100?s=400&u=179400fe0d521777333b8b48039d31033679c829&v=4" id="user-pic" alt="Alt for your image" />
     <h6 id="pre-desc">Your Taglines</span></h6>
     <!-- Your summary -->
     <p id="post-desc">Your Summary.</p>
