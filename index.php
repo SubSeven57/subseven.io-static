@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Made by Daniel Hernandez :D -->
+<!-- Made by Daniel Hernandez :D You should hire me. -->
 <html>
 <head>
   <meta charset="utf-8">
@@ -140,8 +140,8 @@
   <!-- End resume container 2-->
 
 
-  <!-- Begin footer container -->
-  <footer id="site-footer"><span id="footer-cont">Your Copyright Info</span></footer>
+  <!-- Begin footer container, using Manuel Almeida copyleft code -->
+  <footer id="site-footer"><span id="footer-cont"><span class="copy-left">©</span>2017 - <span class="copy-left">©</span><? echo date(Y);?></span></footer>
   <!-- End footer container -->
 
 </body>
