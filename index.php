@@ -141,7 +141,7 @@
 
 
   <!-- Begin footer container, using Manuel Almeida copyleft code -->
-  <footer id="site-footer"><span id="footer-cont"><span class="copy-left">©</span> 2017 - <span class="copy-left">©</span> <? echo date(Y);?></span>. <br> Built with my <a href="https://github.com/SubSeven57/sky-website-template" target="_blank">template.</a></footer>
+  <footer id="site-footer"><span id="footer-cont"><span class="copy-left">©</span>2017 - <span class="copy-left">©</span><?php echo date("Y"); ?></span><br><em>Built with my <a href="https://github.com/SubSeven57/sky-website-template" target="_blank">template.</a></em></footer>
   <!-- End footer container -->
 
 </body>
