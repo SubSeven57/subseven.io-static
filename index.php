@@ -72,8 +72,8 @@
   <!-- Your own name -->
   <div id="cont-1">
     <!-- Description information resume container-->
-    <img src="https://avatars2.githubusercontent.com/u/5679100?s=400&u=179400fe0d521777333b8b48039d31033679c829&v=4" id="user-pic" alt="Alt for your image" />
-    <h6 id="pre-desc">Your Taglines</span></h6>
+    <img src="/assets/img/dan.png" id="user-pic" alt="Daniel Hernandez Image" />
+    <h6 id="pre-desc">Sleep deprived student passionate about web development, social impact, music, and FLOSS.</span></h6>
     <!-- Your summary -->
     <p id="post-desc">Your Summary.</p>
     <!-- Your mission -->
