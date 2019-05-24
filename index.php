@@ -4,18 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Normalize CSS: https://github.com/necolas/normalize.css/ -->
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <!-- The custom style sheet -->
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <!-- Adds icons -->
+  <!-- Adds FontAwesome Icons CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- Adds programming languge icons -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- The scripts for this page -->
   <script src="js/scripts.js"></script>
+
   <!-- Your title -->
   <title>Daniel Hernandez: Web Dev, Music, and Words </title>
+
   <!-- favicon stuff -->
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
