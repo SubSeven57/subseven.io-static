@@ -3,7 +3,13 @@
 <html>
 <head>
   <meta charset="utf-8">
+
+  <!-- Viewport Stuff -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Meta -->
+  <meta name="Description" content="Web developer">
+  <meta name="Keywords" content="resume, php developer, chicago developer">
 
   <!-- Normalize CSS: https://github.com/necolas/normalize.css/ -->
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -77,22 +83,31 @@
   <!-- Begin resume section 2-->
   <div id="cont-2">
     <!-- Begin showcase container-->
-    <h2 class="header-c">Showcase</h2>
+    <h2 class="header-c">Skills</h2>
     <div class="body-c">
 
       <!-- Begin programming languages container -->
       <div class="list-c" id="programming">
         <h4 class="name-c"> Programming Languages</h4>
         <ul>
-          <!-- If you want or need to, you can add icons to programming languages here. Font Awesome has some missing -->
-          <li><i class="devicon-html5-plain"></i> HTML: 7 Years </li>
-          <li><i class="devicon-css3-plain"></i> CSS: 7 Years </li>
-          <li><i class="devicon-php-plain"></i> PHP </li>
-          <li><i class="devicon-python-plain"></i> Python </li>
-          <li><i class="devicon-ruby-plain"></i> Ruby </li>
-          <li><i class="devicon-swift-plain"></i> Swift </li>
+          <!-- Refer to this for documentation: https://icons8.com/line-awesome/cheatsheet -->
+          <li><i class="fa fa-code-fork"></i> <strong>HTML</strong>: Very Comfortable</li>
+          <li><i class="fa fa-code-fork"></i> <strong>CSS</strong>: Very Comfortable</li>
+          <li><i class="fa fa-code-fork"></i> <strong>JavaScript</strong>: Very Comfortable</li>
+          <li><i class="fa fa-code-fork"></i> <strong>PHP</strong>: Comfortable</li>
+          <li><i class="fa fa-code-fork"></i> <strong>Python</strong>: Comfortable</li>
+          <li><i class="fa fa-code-fork"></i> <strong>Ruby</strong>: Still Learning</li>
+          <li><i class="fa fa-code-fork"></i> <strong>Java</strong>: Would Rather Not</li>
         </ul>
       </div>
+
+      <h4 class="name-c"> Other Skills</h4>
+
+      <ul>
+        <li></li>
+      </ul>
+
+
 
       <!-- Begin projects container -->
       <div class="list-c" id="projects">
