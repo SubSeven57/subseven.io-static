@@ -11,8 +11,6 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <!-- Adds LineAwesome Icons CDN -->
   <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
-  <!-- Adds programming languge icons -->
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- The scripts for this page -->
   <script src="js/scripts.js"></script>
 
