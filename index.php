@@ -120,6 +120,7 @@
         consequat. Duis aute irure
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
+    <!-- End experience container -->
 
     <!-- Begin education container-->
     <h2 class="header-c">Education</h2>
@@ -137,7 +138,20 @@
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
-  <!-- End resume container 2-->
+  <!-- End education container-->
+
+  <!-- Begin contact container-->
+  <h2 class="header-c">Contact Me</h2>
+  <div class="body-c">
+    <form action="https://formspree.io/subseven.me@gmail.com" method="POST">
+      <input type="text" name="name">
+      <input type="email" name="_replyto">
+      <input type="submit" value="Send">
+    </form>
+
+  </div>
+</div>
+<!-- End contact container-->
 
 
   <!-- Begin footer container, using Manuel Almeida copyleft code -->
