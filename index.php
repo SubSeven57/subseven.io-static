@@ -35,7 +35,7 @@
       <a id="m-menu" href="#" onclick="openNav()">&#9776; Menu</a>
     </div>
     <div class="header-c2">
-      <p id="your-name">SubSeven.io</p>
+      <p id="your-name">Daniel Hernandez</p>
       <!-- Your personal brand name -->
     </div>
     <div class="header-c3">
@@ -84,8 +84,8 @@
         <h4 class="name-c"> Programming Languages</h4>
         <ul>
           <!-- If you want or need to, you can add icons to programming languages here. Font Awesome has some missing -->
-          <li><i class="devicon-html5-plain"></i> HTML </li>
-          <li><i class="devicon-css3-plain"></i> CSS </li>
+          <li><i class="devicon-html5-plain"></i> HTML: 7 Years </li>
+          <li><i class="devicon-css3-plain"></i> CSS: 7 Years </li>
           <li><i class="devicon-php-plain"></i> PHP </li>
           <li><i class="devicon-python-plain"></i> Python </li>
           <li><i class="devicon-ruby-plain"></i> Ruby </li>
@@ -141,7 +141,7 @@
 
 
   <!-- Begin footer container, using Manuel Almeida copyleft code -->
-  <footer id="site-footer"><span id="footer-cont"><span class="copy-left">©</span>2017 - <span class="copy-left">©</span><? echo date(Y);?></span></footer>
+  <footer id="site-footer"><span id="footer-cont"><span class="copy-left">©</span> 2017 - <span class="copy-left">©</span> <? echo date(Y);?></span>. <br> Built with my <a href="https://github.com/SubSeven57/sky-website-template" target="_blank">template.</a></footer>
   <!-- End footer container -->
 
 </body>
