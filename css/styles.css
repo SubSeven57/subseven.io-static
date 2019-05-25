@@ -182,8 +182,8 @@ img {
 /* Manages sub headings inside the body containers */
 
 .name-c {
-  color: #444;
-  font-family: monospace;
+  color: #333;
+  font-family: 'Calibri';
   text-align: left;
   margin: 0 0 10px 0;
 }
