@@ -141,17 +141,13 @@
     <!-- Begin education container-->
     <h2 class="header-c">Education</h2>
     <div class="body-c">
-      <h4 class="name-c"> Degree at School</h4> <span class="it"> From xxxx to xxxx</span>
+      <h4 class="name-c"> B.S. Computer Science at Northeastern Illinois University</h4> <span class="it"> From 2017 to Present</span>
       <hr class="divider">
-      <p class="blurb-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="blurb-c"></p>
 
-      <h4 class="name-c"> Degree at School</h4> <span class="it"> From xxxx to xxxx</span>
+      <h4 class="name-c"> A.A.S Science at Harold Washington College</h4> <span class="it"> From 2014 to 2017</span>
       <hr class="divider">
-      <p class="blurb-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="blurb-c">Involved in STEM Club in 2015-2016. Held office initially as Secretary and then as web developer in 2016.</p>
     </div>
   </div>
   <!-- End education container-->
