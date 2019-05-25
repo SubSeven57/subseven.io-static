@@ -209,17 +209,11 @@ img {
 /* Manages the fancy line break*/
 
 .divider {
-  border-top: 1px solid #444;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-
-.divider:after {
-  content: '';
-  display: block;
-  margin-top: 2px;
-  border-top: 1px solid #8c8b8b;
-  border-bottom: 1px solid #fff;
-}
-
 
 /* Manages stles for SHOWCASE section */
 
