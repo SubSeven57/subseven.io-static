@@ -156,9 +156,21 @@
   <h2 class="header-c">Contact Me</h2>
   <div class="body-c">
     <form action="https://formspree.io/subseven.me@gmail.com" method="POST">
-      <input type="text" name="name">
-      <input type="email" name="_replyto">
-      <input type="submit" value="Send">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="mail">E-Mail:</label>
+        <input type="email" id="email" name="user_mail">
+      </div>
+      <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="message"></textarea>
+      </div>
+      <div class="form-button">
+        <button type="submit">Send your message</button>
+      </div>
     </form>
 
   </div>
