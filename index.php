@@ -39,10 +39,10 @@
   <!--Begin header and header containers-->
   <header id="site-header">
     <div class="header-c1">
-      <a id="m-menu" href="#" onclick="openNav()">&#9776; Menu</a>
+      <a id="m-menu" href="#" onclick="openNav()">&#9776; Links</a>
     </div>
     <div class="header-c2">
-      <p id="your-name">Daniel Hernandez</p>
+      <p id="your-name"><a href="#">subseven.io</a></p>
       <!-- Your personal brand name -->
     </div>
     <div class="header-c3">
@@ -91,33 +91,36 @@
         <h4 class="name-c"> Programming Languages</h4>
         <ul>
           <!-- Refer to this for documentation: https://icons8.com/line-awesome/cheatsheet -->
-          <li><i class="fa fa-code-fork"></i> <strong>HTML</strong>: Very Comfortable</li>
-          <li><i class="fa fa-code-fork"></i> <strong>CSS</strong>: Very Comfortable</li>
-          <li><i class="fa fa-code-fork"></i> <strong>JavaScript</strong>: Very Comfortable</li>
+          <li><i class="fa fa-code-fork"></i> <strong>HTML</strong>: Experienced </li>
+          <li><i class="fa fa-code-fork"></i> <strong>CSS</strong>: Experienced</li>
+          <li><i class="fa fa-code-fork"></i> <strong>JavaScript</strong>: Experienced</li>
           <li><i class="fa fa-code-fork"></i> <strong>PHP</strong>: Comfortable</li>
           <li><i class="fa fa-code-fork"></i> <strong>Python</strong>: Comfortable</li>
-          <li><i class="fa fa-code-fork"></i> <strong>Ruby</strong>: Still Learning</li>
+          <li><i class="fa fa-code-fork"></i> <strong>Ruby/Rails</strong>: Somewhat Comfortable</li>
           <li><i class="fa fa-code-fork"></i> <strong>Java</strong>: Would Rather Not</li>
         </ul>
+
+        <h4 class="name-c"> Tools </h4>
+        <ul>
+          <!-- Refer to this for documentation: https://icons8.com/line-awesome/cheatsheet -->
+          <li><i class="fa fa-star"></i> <strong>GNU/Linux</strong>: Very Experienced</li>
+          <li><i class="fa fa-star"></i> <strong>Sound Design/Editing</strong>: Experienced</li>
+          <li><i class="fa fa-star"></i> <strong>CMS Management</strong>: Experienced</li>
+          <li><i class="fa fa-star"></i> <strong>Google Ads Platform</strong>: Experienced</li>
+          <li><i class="fa fa-star"></i> <strong>Photo/Vector Editing</strong>: Comfortable</li>
+          <li><i class="fa fa-star"></i> <strong>Video Editing</strong>: Somewhat Experienced</li>
+        </ul>
       </div>
-
-      <h4 class="name-c"> Other Skills</h4>
-
-      <ul>
-        <li></li>
-      </ul>
-
-
 
       <!-- Begin projects container -->
       <div class="list-c" id="projects">
         <h4 class="name-c"> Projects</h4>
         <ul>
           <!-- If you want or need to, you can add icons to programming languages here. Font Awesome has some missing -->
-          <li><a href="#" class="#" target="_blank" rel="noreferrer noopener"><i class="devicon-github-plain"></i> Project Title | Date </a></li>
-          <li><a href="#" class="#" target="_blank" rel="noreferrer noopener"><i class="devicon-github-plain"></i> Project Title | Date </a></li>
-          <li><a href="#" class="#" target="_blank" rel="noreferrer noopener"><i class="devicon-github-plain"></i> Project Title | Date </a></li>
-          <li><a href="#" class="#" target="_blank" rel="noreferrer noopener"><i class="devicon-github-plain"></i> Project Title | Date </a></li>
+          <li><a href="https://uroneiu.com" class="#" target="_blank" rel="noreferrer noopener"><i class="fa fa-wordpress"></i><strong>URO @ NEIU</strong></a> | Theme Design, Maintenance</li>
+          <li><a href="https://anklenfoot.com" class="#" target="_blank" rel="noreferrer noopener"><i class="fa fa-buysellads"></i><strong>Ankle N Foot</strong></a> | Marketing, Analytics</li>
+          <li><a href="https://github.com/SubSeven57/sky-website-template" class="#" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i><strong>Sky Template</strong></a> | Code</li>
+          <li><a href="https://theardentband.com/" class="#" target="_blank" rel="noreferrer noopener"><i class="fa fa-html5"></i><strong>The Ardent</strong></a> | Design, Code</li>
         </ul>
       </div>
     </div>
@@ -143,7 +146,7 @@
     <div class="body-c">
       <h4 class="name-c"> B.S. Computer Science at Northeastern Illinois University</h4> <span class="it"> From 2017 to Present</span>
       <hr class="divider">
-      <p class="blurb-c"></p>
+      <p class="blurb-c">Involved in URO (Undocumented, Resilient and Organized): Web Admin, Secretary (Fall 2017 - Spring 2018), President, Web Admin (Fall 2018-Present). Responsible for creating events, overseeing organization initiatives, and creating a welcoming athmosphere.</p>
 
       <h4 class="name-c"> A.A.S Science at Harold Washington College</h4> <span class="it"> From 2014 to 2017</span>
       <hr class="divider">
