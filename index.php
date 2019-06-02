@@ -21,7 +21,7 @@
   <script src="js/scripts.js"></script>
 
   <!-- Your title -->
-  <title>Daniel Hernandez: Web Dev, Music, and Words </title>
+  <title>Daniel Hernandez: Web Dev, Music, and Words</title>
 
   <!-- favicon stuff -->
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
@@ -72,7 +72,7 @@
   <!-- Your own name -->
   <div id="cont-1">
     <!-- Description information resume container-->
-    <img src="/assets/img/dan.png" id="user-pic" alt="Daniel Hernandez Image" />
+    <img src="/img/dan.png" id="user-pic" alt="Daniel Hernandez Image" />
     <h6 id="pre-desc">Sleep deprived student passionate about web development, social impact, music, and FLOSS.</span></h6>
     <!-- Your summary -->
     <p id="post-desc">Your Summary.</p>
