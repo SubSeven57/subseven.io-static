@@ -127,7 +127,7 @@ img {
   padding: 2% 0 2% 0;
   margin: 0;
   text-align: center;
-  background-image: linear-gradient(45deg, #F44336, #5271ff);
+  background-image: linear-gradient(45deg, #6a0080, #5271ff);
   /*You can change your colours here*/
 }
 
@@ -157,6 +157,18 @@ img {
   padding: 0;
   margin: 0;
 }
+
+/* Contact Form */
+
+#contactMe input {
+  padding: 8px 10px;
+  width: 100%;
+}
+
+#contactMe textarea {
+  width: 100%;
+}
+
 
 
 /* Manages headers for sections inside the resumer container */
