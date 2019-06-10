@@ -153,7 +153,7 @@
 
       <h4 class="name-c">Instructor at iD Tech</h4> <span class="it"> From Jun 2014 to Aug 2016 (Seasonal)</span>
       <hr class="divider">
-      <p class="blurb-c"></p>
+      <p class="blurb-c"> During my employment with iD tech, I was primarily in charge of overseeing and ensuring the safety/well-being of a small group of campers, usually composed of 5 to 8 individuals of varying ages, as well as learn, adapt, and teach a provided curriculum. Secondary responsibilities included leading camp activities, collaborating with other instructors/managers to plan events, provide technical support when needed, create supplemental class materials, and lead camper/parent diploma ceremonies every Friday afternoon. I taught HTML/CSS/JavaScript, Minecraft Game Design, and Java modding.</p>
 
 
     </div>
