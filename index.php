@@ -3,7 +3,7 @@
 
 <?php // TODO: ADD ALL OF THIS STUFF TO THE MAIN TEMPLATE: Documentation, switch up the container class ?>
 
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
 
