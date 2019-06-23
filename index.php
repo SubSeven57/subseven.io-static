@@ -63,6 +63,8 @@
     <a class="menu-item" href="https://linkedin.com/in/subseven" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
     <a class="menu-item" href="https://twitter.com/SanKahlo" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i> Twitter</a></li>
     <a class="menu-item" href="https://github.com/subseven57" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i> GitHub</a></li>
+    <a class="menu-item" href="https://keybase.io/subseven" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-lock"></i> Keybase</a></li>
+
     <!-- Refer to the documentation to see what icons are supported.
     However, the basics are that you give the "i" element a class of "fa" then "fa-whatever" -->
   </nav>
