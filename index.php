@@ -180,16 +180,15 @@
   <div class="body-c">
     <form action="https://formspree.io/subseven.me@gmail.com" method="POST" id="contactMe">
       <div>
-        <label for="name">Name:</label>
         <input type="text" id="name" name="name">
-      </div>
+        <label for="name">Name:</label>
       <div>
-        <label for="mail">E-Mail:</label>
         <input type="email" id="email" name="user_mail">
+        <label for="email">E-Mail:</label>
       </div>
       <div>
+        <textarea name="message" id="msg"></textarea>
         <label for="msg">Message:</label>
-        <textarea name="message"></textarea>
       </div>
       <div class="form-button">
         <button type="submit">Send your message</button>
@@ -200,7 +199,6 @@
   </div>
 </div>
 <!-- End contact container-->
-
 
   <!-- Begin footer container, using Manuel Almeida copyleft code -->
   <footer id="site-footer"><span id="footer-cont"><span class="copy-left">©</span>2017 - <span class="copy-left">©</span><?php echo date("Y"); ?></span><br><em>Built with my <a href="https://github.com/SubSeven57/sky-website-template" target="_blank">template.</a></em></footer>
