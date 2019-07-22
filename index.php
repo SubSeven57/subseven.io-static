@@ -60,10 +60,10 @@
     Below this, you can replace the contents with your own links.
     -->
     <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
-    <a class="menu-item" href="https://linkedin.com/in/subseven" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-    <a class="menu-item" href="https://twitter.com/SanKahlo" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i> Twitter</a></li>
-    <a class="menu-item" href="https://github.com/subseven57" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i> GitHub</a></li>
-    <a class="menu-item" href="https://keybase.io/subseven" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-lock"></i> Keybase</a></li>
+    <a class="menu-item btn" href="https://linkedin.com/in/subseven" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin"></i> LinkedIn</a>
+    <a class="menu-item btn" href="https://twitter.com/SanKahlo" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i> Twitter</a>
+    <a class="menu-item btn" href="https://github.com/subseven57" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i> GitHub</a>
+    <a class="menu-item btn" href="https://keybase.io/subseven" target="_blank" rel="noreferrer noopener"><i class="fa fa-lock"></i> Keybase</a>
 
     <!-- Refer to the documentation to see what icons are supported.
     However, the basics are that you give the "i" element a class of "fa" then "fa-whatever" -->
@@ -76,7 +76,7 @@
   <div id="cont-1">
     <!-- Description information resume container-->
     <img src="/img/dan.png" id="user-pic" alt="Daniel Hernandez Image" />
-    <h6 id="pre-desc">Sleep deprived student passionate about web development, social impact, music, and FLOSS.</span></h6>
+    <h6><span id="pre-desc">Sleep deprived student passionate about web development, social impact, music, and FLOSS.</span></h6>
     <!-- Your summary -->
     <p id="post-desc">I've always been a tech kid at heart.</p>
     <!-- Your mission -->
@@ -194,9 +194,8 @@
         <button type="submit">Send your message</button>
       </div>
       <div><em>You will be redirected after submission. I am using FormSpree for validation.</em></div>
-    </form>
-
-  </div>
+    </div>
+  </form>
 </div>
 <!-- End contact container-->
 
