@@ -138,7 +138,7 @@
       <hr class="divider">
       <p class="blurb-c">Created a series of websites for small business owners around the Chicago area. Assisted either in design, deployment, or a combination of both.</p>
 
-      <h4 class="name-c">Social Impact Program Coordinator at GiHub</h4> <span class="it"> From Jun 2017 to Aug 2017</span>
+      <h4 class="name-c">Social Impact Program Coordinator Intern at GiHub</h4> <span class="it"> From Jun 2017 to Aug 2017</span>
       <hr class="divider">
       <p class="blurb-c"> Developed a survey and email campaign for GitHub nonprofit customers. We wanted to understand how nonprofits and how they used open-source.
       The survey went out to 25,000 accounts. <br> Then, the results were interpreted and analyzed survey information with R, Python, Looker, and SQL. The results of this survey were then compiled into a report and published.</p>
