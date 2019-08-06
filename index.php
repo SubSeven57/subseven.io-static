@@ -56,17 +56,11 @@
 
   <!--Begin menu and menu container. -->
   <nav class="menu-sidebar" id="main-nav">
-    <!-- This template uses font-awesome icons. Here you can make use of them to highlight your links.
-    Below this, you can replace the contents with your own links.
-    -->
     <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
-    <a class="menu-item btn" href="https://linkedin.com/in/subseven" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin"></i> LinkedIn</a>
-    <a class="menu-item btn" href="https://twitter.com/SanKahlo" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i> Twitter</a>
-    <a class="menu-item btn" href="https://github.com/subseven57" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i> GitHub</a>
-    <a class="menu-item btn" href="https://keybase.io/subseven" target="_blank" rel="noreferrer noopener"><i class="fa fa-lock"></i> Keybase</a>
-
-    <!-- Refer to the documentation to see what icons are supported.
-    However, the basics are that you give the "i" element a class of "fa" then "fa-whatever" -->
+    <a class="menu-item btn" href="https://linkedin.com/in/subseven" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
+    <a class="menu-item btn" href="https://twitter.com/SanKahlo" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+    <a class="menu-item btn" href="https://github.com/subseven57" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+    <a class="menu-item btn" href="https://keybase.io/subseven" target="_blank"><i class="fa fa-lock"></i> Keybase</a>
   </nav>
   <!--End of menu and menu container. -->
 
@@ -98,8 +92,8 @@
           <li><i class="fa fa-code-fork"></i> <strong>CSS</strong>: Experienced</li>
           <li><i class="fa fa-code-fork"></i> <strong>JavaScript</strong>: Experienced</li>
           <li><i class="fa fa-code-fork"></i> <strong>PHP</strong>: Experienced</li>
-          <li><i class="fa fa-code-fork"></i> <strong>Python</strong>: Comfortable</li>
-          <li><i class="fa fa-code-fork"></i> <strong>Ruby/Rails</strong>: Somewhat Comfortable</li>
+          <li><i class="fa fa-code-fork"></i> <strong>Python</strong>: Experienced</li>
+          <li><i class="fa fa-code-fork"></i> <strong>Ruby/Rails</strong>: Somewhat Experienced</li>
         </ul>
 
         <h4 class="name-c"> Tools </h4>
@@ -180,15 +174,15 @@
   <div class="body-c">
     <form action="https://formspree.io/subseven.me@gmail.com" method="POST" id="contactMe">
       <div>
+	    <label for="name">Name:</label>
         <input type="text" id="name" name="name">
-        <label for="name">Name:</label>
       <div>
+		<label for="email">E-Mail:</label>
         <input type="email" id="email" name="user_mail">
-        <label for="email">E-Mail:</label>
       </div>
       <div>
-        <textarea name="message" id="msg"></textarea>
         <label for="msg">Message:</label>
+        <textarea name="message" id="msg"></textarea>
       </div>
       <div class="form-button">
         <button type="submit">Send your message</button>
