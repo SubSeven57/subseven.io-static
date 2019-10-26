@@ -2,7 +2,8 @@
 title: Home
 layout: default
 ---
-  <h2 class="header-c">Daniel Hernandez</h2>
+
+  <h2 class="header-c">{{ page.title }}</h2>
   <div id="cont-1">
     <img src="/img/dan.png" id="user-pic" alt="Daniel Hernandez Image" />
     <h6><span id="pre-desc">Sleep deprived student passionate about web development, social impact, music, and FLOSS.</span></h6>
@@ -75,13 +76,15 @@ layout: default
     <div class="body-c">
       <h4 class="name-c"> B.S. Computer Science at Northeastern Illinois University</h4> <span class="it"> From 2017 to Present</span>
       <hr class="divider">
-      <p class="blurb-c">Involved in URO (Undocumented, Resilient and Organized): Web Admin, Secretary (Fall 2017 - Spring 2018), President, Web Admin (Fall 2018-Present). Responsible for creating events, overseeing organization initiatives, and creating a welcoming athmosphere.</p>
+      <p class="blurb-c">Involved in URO (Undocumented, Resilient and Organized): Web Admin, Secretary (Fall 2017 - Spring 2018), President, Web Admin (Fall 2018-Present). Responsible for creating events, overseeing organization initiatives, and creating a welcoming atmosphere.</p>
 
       <h4 class="name-c"> A.A.S Science at Harold Washington College</h4> <span class="it"> From 2014 to 2017</span>
       <hr class="divider">
       <p class="blurb-c">Involved in STEM Club in 2015-2016. Held office initially as Secretary and then as web developer in 2016.</p>
     </div>
+
   </div>
+
   <h2 class="header-c">Contact Me</h2>
   <div class="body-c">
     <form action="https://formspree.io/subseven.me@gmail.com" method="POST" id="contactMe">
