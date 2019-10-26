@@ -123,7 +123,7 @@ img {
 
 /**** RESUME STUFF: Container 1 ****/
 
-.top-cont {
+#cont-about {
   padding: 2% 0 2% 0;
   margin: 0;
   text-align: center;
@@ -152,7 +152,7 @@ img {
   RESUME STUFF: Container 2
   ****/
 
-#cont-2 {
+.general-cont {
   overflow-x: auto;
   padding: 0;
   margin: 0;
