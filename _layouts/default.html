@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Made by Daniel Hernandez :D You should hire me. -->
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Viewport Stuff -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Meta -->
+  <meta name="Description" content="Web developer">
+  <meta name="Keywords" content="resume, php developer, chicago developer">
+  <!-- Normalize CSS: https://github.com/necolas/normalize.css/ -->
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <!-- The custom style sheet -->
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <!-- Adds LineAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
+  <!-- The scripts for this page -->
+  <script src="/js/scripts.js"></script>
+
+  <!-- Your title -->
+  <title> {{ site.title }} @ {{ page.title }} </title>
+
+  <!-- favicon stuff -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="../image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="../image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="manifest" href="/img/site.webmanifest">
+  <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="/img/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <!--Begin header and header containers-->
+  <header id="site-header">
+    <div class="header-c1">
+      <a id="m-menu" href="#" onclick="openNav()">&#9776; Links</a>
+    </div>
+    <div class="header-c2">
+      <p id="your-name"><a href="/">subseven.io</a></p>
+      <!-- Your personal brand name -->
+    </div>
+    <div class="header-c3">
+      <a href="/"><img src="/img/android-chrome-512x512.png" id="site-logo" alt="SubSeven Logo" /></a>
+    </div>
+  </header>
+  <!--End of header and menu. -->
+
+  <!--Begin menu and menu container. -->
+  <nav class="menu-sidebar" id="main-nav">
+    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+	<a class="menu-item btn" href="/" rel="noopener"><i class="fa fa-home"></i> Home</a>
+	<a class="menu-item btn" href="/blog" rel="noopener"><i class="fa fa-blog"></i> Blog</a>
+    <a class="menu-item btn" href="https://linkedin.com/in/subseven" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> LinkedIn</a>
+    <a class="menu-item btn" href="https://twitter.com/SanKahlo" target="_blank" rel="noopener"><i class="fa fa-twitter"></i> Twitter</a>
+    <a class="menu-item btn" href="https://github.com/subseven57" target="_blank" rel="noopener"><i class="fa fa-github"></i> GitHub</a>
+    <a class="menu-item btn" href="https://keybase.io/subseven" target="_blank" rel="noopener"><i class="fa fa-lock"></i> Keybase</a>
+  </nav>
+  {{ content }}
+  <footer id="site-footer"><span id="footer-cont"><span class="copy-left">©</span>2019<br><em>Built with my <a href="https://github.com/SubSeven57/sky-website-template" target="_blank">template.</a></em></footer>
+</body>
+</html>
