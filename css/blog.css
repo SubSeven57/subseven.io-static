@@ -1,0 +1,25 @@
+.blog-title {
+  height: 2.5em;
+  border-radius: 17px 17px 17px 17px;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: #FFF;
+}
+
+.blog-content {
+  width: 100%;
+  padding: .5em;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: white;
+  font-family: Helvetica, 'Share Tech Mono', Tahoma;
+  background: rgba(238, 233, 233, 0.8);
+  width: 100%;
+  word-wrap: break-word;
+  color: #000000;
+}
+
+/* This is the style for the date in the div, ONLY */
+.blog-date {
+  color: black;
+}

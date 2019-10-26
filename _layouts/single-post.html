@@ -4,7 +4,10 @@ layout: default
 
 
 <div class="body-c">
-				<div class="blog-heading"><h3 class="blog-title"> {{ post.title }} </h3></div>
+				<h3 class="blog-title"> {{ post.title }} </h3>
+				<div class="blog-content">
 					{{ content }}
-			<span class="blog-date"> {{page.date}} </span> <!-- Heading -->
+					<span class="blog-date"> Posted: {{page.date}} </span>
+				</div>
+
 </div>
