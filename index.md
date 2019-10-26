@@ -9,10 +9,3 @@ layout: default
     <h6><span id="pre-desc">Sleep deprived student passionate about web development, social impact, music, and FLOSS.</span></h6>
     <p id="post-desc">I've always been a tech kid at heart.</p>
   </div>
-
-  <div class="general-cont">
-    <h2 class="header-c">Contact Me</h2>
-    <div class="body-c">
-      {% include contact-form.html %}
-    </div>
-  </div>

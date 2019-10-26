@@ -19,15 +19,15 @@
   <!-- Adds LineAwesome Icons CDN -->
   <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
   <!-- The scripts for this page -->
-  <script src="/js/scripts.js"></script>
+  <script async src="/js/scripts.js"></script>
 
   <!-- Your title -->
   <title> Daniel Hernandez: Web Dev, Music, and Words : Home </title>
 
   <!-- favicon stuff -->
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-  <link rel="icon" type="../image/png" sizes="32x32" href="/img/favicon-32x32.png">
-  <link rel="icon" type="../image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="icon" type="/image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="/image/png" sizes="16x16" href="/img/favicon-16x16.png">
   <link rel="manifest" href="/img/site.webmanifest">
   <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
   <link rel="shortcut icon" href="/img/favicon.ico">
@@ -38,32 +38,30 @@
 
 <body>
   <!--Begin header and header containers-->
-  <header id="site-header">
-    <div class="header-c1">
-      <a id="m-menu" href="#" onclick="openNav()">&#9776; Links</a>
-    </div>
-    <div class="header-c2">
-      <p id="your-name"><a href="/">subseven.io</a></p>
-      <!-- Your personal brand name -->
-    </div>
-    <div class="header-c3">
-      <a href="/"><img src="/img/android-chrome-512x512.png" id="site-logo" alt="SubSeven Logo" /></a>
-    </div>
-  </header>
-  <!--End of header and menu. -->
+<header id="site-header">
+  <div class="header-c1">
+    <a id="m-menu" href="#" onclick="openNav()">&#9776; Menu</a>
+  </div>
+  <div class="header-c2">
+    <p id="your-name"><a href="/">subseven.io</a></p>
+    <!-- Your personal brand name -->
+  </div>
+  <div class="header-c3">
+    <a href="/"><img src="/img/android-chrome-512x512.png" id="site-logo" alt="SubSeven Logo" /></a>
+  </div>
+</header>
+<!--End of header and menu. -->
 
-  <!--Begin menu and menu container. -->
+<!--Begin menu and menu container. -->
 <nav class="menu-sidebar" id="main-nav">
   <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
   <a class="menu-item btn" href="/" rel="noopener"><i class="fa fa-home"></i> Home</a>
-  <a class="menu-item btn" href="/blog" rel="noopener"><i class="fa fa-blog"></i> Blog</a>
+  <a class="menu-item btn" href="/blog" rel="noopener"><i class="fas fa-blog"></i> Blog</a>
   <a class="menu-item btn" href="https://linkedin.com/in/subseven" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> LinkedIn</a>
   <a class="menu-item btn" href="https://twitter.com/SanKahlo" target="_blank" rel="noopener"><i class="fa fa-twitter"></i> Twitter</a>
   <a class="menu-item btn" href="https://github.com/subseven57" target="_blank" rel="noopener"><i class="fa fa-github"></i> GitHub</a>
   <a class="menu-item btn" href="https://keybase.io/subseven" target="_blank" rel="noopener"><i class="fa fa-lock"></i> Keybase</a>
 </nav>
-
-
 
   <h2 class="header-c">Home</h2>
 <div id="cont-about">
@@ -72,33 +70,7 @@
     <p id="post-desc">I've always been a tech kid at heart.</p>
   </div>
 
-<div class="general-cont">
-    <h2 class="header-c">Contact Me</h2>
-    <div class="body-c">
-      <form action="https://formspree.io/subseven.me@gmail.com" method="POST" id="contactMe">
-  <div>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" />
-    <div>
-      <label for="email">E-Mail:</label>
-      <input type="email" id="email" name="user_mail" />
-    </div>
-    <div>
-      <label for="msg">Message:</label>
-      <textarea name="message" id="msg"></textarea>
-    </div>
-    <div class="form-button">
-      <button type="submit">Send your message</button>
-    </div>
-    <div><em>You will be redirected after submission. I am using FormSpree for validation.</em></div>
-&lt;/form&gt;
-
-    </div>
-  &lt;/div&gt;
-</form></div></div>
-
-
-  <footer id="site-footer"><span id="footer-cont"><span class="copy-left">©</span>2019<br><em>Built with <a href="https://jekyllrb.com/">Jekyll</a> and my <a href="https://github.com/SubSeven57/sky-website-template">static HTML template.</a></em></footer>
+  <footer id="site-footer"><span id="footer-cont"><span class="copy-left">©</span>2019<br><em>Built with <a href="https://jekyllrb.com/">Jekyll</a> and my <a href="https://github.com/SubSeven57/sky-website-template">static HTML template.</a></em></span></footer>
 
 </body>
 

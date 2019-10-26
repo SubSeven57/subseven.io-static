@@ -1,1 +1,9 @@
 title: "Daniel Hernandez: Web Dev, Music, and Words"
+
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+permalink: /blog/:day/:month/:year/:title/
