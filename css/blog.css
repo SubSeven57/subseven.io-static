@@ -1,12 +1,15 @@
 .blog-title {
   height: 2.5em;
-  border-radius: 17px 17px 17px 17px;
+  border-radius: 1em;
   background: rgba(0, 0, 0, 0.8);
   text-align: center;
   color: #FFF;
+  padding: .5em;
 }
 
 .blog-content {
+  border-radius: 1em 1em 0 0;
+  padding: 1em;
   width: 100%;
   padding: .5em;
   box-sizing: border-box;
@@ -22,4 +25,15 @@
 /* This is the style for the date in the div, ONLY */
 .blog-date {
   color: black;
+}
+
+.blog-back-button {
+  background-color: #5271ff;
+  color: white;
+}
+
+.blog-back-button a {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
 }
