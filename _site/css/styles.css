@@ -1,0 +1,281 @@
+/**** GLOBAL STYLES ****/
+
+html {
+  font-family: sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+  background-color: #F8F8F8
+}
+
+body {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+
+/**** MENU STYLES ****/
+
+
+/*Fixes the weird margin issues with the menu icon */
+
+#m-menu {
+  margin-top: 15px;
+}
+
+
+/* Manages the sidebar container */
+
+.menu-sidebar {
+  background-color: #FFF;
+  padding-top: 4em;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  float: right;
+}
+
+
+/* Manages the links in the sidebar */
+
+.menu-sidebar a {
+  color: #5271ff;
+  padding: .5em;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+}
+
+
+/* Manages the colours of the links in the sidebar */
+
+.menu-sidebar a:hover, a:focus {
+  color: #F44336;
+}
+
+
+/* Manages properties of the close button in the sidebar */
+
+.menu-sidebar .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+
+/**** SITE HEADER ****/
+
+
+/* Manages the logo container */
+
+#site-logo {
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+
+/* Manages the header container*/
+
+#site-header {
+  color: #5271ff;
+  background-color: #FFF;
+  padding: 10px;
+  max-height: 25%;
+}
+
+.header-c1 a {
+  color: #5271ff;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  left: 0;
+  top: 0;
+}
+
+.header-c2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-c3 {
+  position: absolute;
+  padding-top: 10px;
+  padding-right: 10px;
+  right: 0;
+  top: 0;
+}
+
+
+/**** RESUME STUFF: Container 1 ****/
+
+#cont-about {
+  padding: 2% 0 2% 0;
+  margin: 0;
+  text-align: center;
+  background-image: linear-gradient(45deg, #6a0080, #5271ff);
+  /*You can change your colours here*/
+}
+
+#user-pic {
+  border-radius: 50%;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+#pre-desc {
+  font-style: italic;
+  color: #FFF;
+}
+
+#post-desc {
+  font-weight: lighter;
+  color: #FFF;
+}
+
+
+/****
+  RESUME STUFF: Container 2
+  ****/
+
+.general-cont {
+  overflow-x: auto;
+  padding: 0;
+  margin: 0;
+}
+
+/* Contact Form */
+
+#contactMe input {
+  padding: 8px 10px;
+  width: 100%;
+}
+
+#contactMe textarea {
+  width: 100%;
+}
+
+
+
+/* Manages headers for sections inside the resumer container */
+
+.header-c {
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  background: #5271ff;
+  padding: 15px;
+  margin: 0;
+}
+
+
+/* Manages the body for the containers in the resume container */
+
+.body-c {
+  padding: 10px 10% 0 10%;
+  margin: 0;
+}
+
+
+/* Manages sub headings inside the body containers */
+
+.name-c {
+  color: #333;
+  font-family: 'Calibri';
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+
+
+/* Manages content inside the body containers */
+
+.blurb-c {
+  font-style: normal;
+}
+
+
+/* Italics */
+
+.it {
+  font-style: italic;
+  font-weight: lighter;
+  text-align: justify;
+  color: #8c8b8b;
+}
+
+
+/* Manages the fancy line break*/
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* Manages stles for SHOWCASE section */
+
+
+/* Manages the list styles specific for PROGRAMMING list */
+
+#programming a {
+  pointer-events: none;
+}
+
+
+/* Manages the list styles specific for PROJECTS list */
+
+#projects a {
+  color: #000;
+}
+
+
+/* Manages the list */
+
+.list-c ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 10px 0;
+  column-count: 3;
+}
+
+.list-c i {
+  font-size: 20px;
+}
+
+
+/****
+SITE FOOTER
+****/
+
+.copy-left { display: inline-block; text-align: right; margin: 0px; -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: “FlipH”; }
+
+
+#site-footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 8em;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #FFF;
+  text-align: center;
+}
+
+#footer-cont {
+  color: #5271ff;
+}
